@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="./favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <title>Stock Boiz</title>
+  </head>
+  <body>
+    <!-- <noscript>You need to enable JavaScript to run this app.</noscript> -->
+
+    <nav class="navbar inline navbar-expand-md bg-warning navbar-light navbarGradient">
+      <div class="container-fluid">
+          <a class="navbar-brand" href="/home">
+              <img src="http://www.dacoromania.org/upload/o/127/1278868_graph-going-up-png.png" alt="logo" style="width: 40px;">
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+              <ul class="navbar-nav mr-auto">
+                  <li class="nav-item">
+                      <a class="nav-link" href="/home" >Home</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="/stocks">Stock Search</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="/momentum">Momentum</a>
+                </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="/contact">Contact</a>
+                  </li>
+              </ul>
+              <ul class="nav navbar-nav ml-auto">
+
+                  <li class="nav-item">
+                      <a class="nav-link" href="/login">Log In</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="/signup">Sign Up</a>
+                  </li>
+              </ul>
+          </div>
+      </div>
+  </nav>
+
+
+    <div id="root"></div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+  </body>
+        <!--Bootstrap & JQuery import-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+</html>
