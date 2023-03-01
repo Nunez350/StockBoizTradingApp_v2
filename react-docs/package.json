@@ -4,7 +4,7 @@
   "private": true,
   "dependencies": {
     "axios": "^0.21.2",
-    "plotly.js": "^1.51.1",
+    "plotly.js": "^1.58.5",
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
     "react-plotly.js": "^2.4.0",
